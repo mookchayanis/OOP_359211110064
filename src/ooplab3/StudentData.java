@@ -10,21 +10,21 @@ package ooplab3;
 //4.ที่อยู่
 //5.email
 //หมายเหตุ: ต้องรับค้าข้อมูลแต่ละข้อมูลโดยการใช้ Methods
-public class StudentData {
+//public class StudentData {
 
-    public static void main(String[] arge){
-        getName();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-         System.out.print("wath is your name? :");
-         String name = reader.readLine();
-         System.out.print("Your name is"+name);
+   // public static void main(String[] arge){
+       // getName();
+      //  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        // System.out.print("wath is your name? :");
+       //  String name = reader.readLine();
+     //    System.out.print("Your name is"+name);
 
-        }
-    }//main
-
-
-    private static void getName() {
-    }
+      //  }
+   // }//main
 
 
-}//calss
+  //  private static void getName() {
+    //}
+
+
+//}//calss
