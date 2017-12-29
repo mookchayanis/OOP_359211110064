@@ -12,19 +12,52 @@ package ooplab3;
 //หมายเหตุ: ต้องรับค้าข้อมูลแต่ละข้อมูลโดยการใช้ Methods
 //public class StudentData {
 
-   // public static void main(String[] arge){
-       // getName();
-      //  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        // System.out.print("wath is your name? :");
-       //  String name = reader.readLine();
-     //    System.out.print("Your name is"+name);
+public class StudentData {
+ static BufferedReader reader = new BufferedReader(
+         new InputStreamReader(System.in));
+ public static void main(String[] args) throws IOException {
+  String stdname = getStdName();
+  String stdid = getStdID();
+  String stdfac = getStdFac();
+  String stdaddress = getStdAdd();
+  String stdemail = getStdEmail();
+  System.out.println("Student name:"+stdname+
+          "ID: "+stdid+
+          "Major and Faculty: "+stdfac+
+          "Address:"+stdaddress+
+          "Email:"+stdemail);
+ }//main
 
-      //  }
-   // }//main
+ private static String getStdEmail() throws IOException {
+  System.out.print("Enter your id: ");
+  String email = reader.readLine();
+  return email;
+ }
+
+ private static String getStdAdd() throws IOException {
+  System.out.print("Enter your address: ");
+  String add = reader.readLine();
+  return add;
+ }
+
+ private static String getStdFac() throws IOException {
+  System.out.print("Enter your Major and Faculty: ");
+  String fac = reader.readLine();
+  return fac;
+ }
+
+ private static String getStdID() throws IOException {
+  System.out.print("Enter your id: ");
+  String id = reader.readLine();
+  return id;
+ }
+
+ private static String getStdName() throws IOException {
+  System.out.print("Enter your name: ");
+  //String s = reader.readLine();
+  //return s;
+  return reader.readLine();
+ }
 
 
-  //  private static void getName() {
-    //}
-
-
-//}//calss
+}//class
