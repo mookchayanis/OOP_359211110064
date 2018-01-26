@@ -44,19 +44,19 @@ public class Student {
         return  this.name;
     }
     public void setName(String name){
-        this.name
+        this.name = name;
     }
     public String getPid (){
         return  this.pid;
     }
     public void setPid (String pid){
-        this.pid
+        this.pid = pid;
     }
     public String getAddress (){
         return  this.address;
     }
     public void setAddress(String address){
-        this.address
+        this.address = address;
     }
 
 
