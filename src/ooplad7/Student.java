@@ -7,6 +7,8 @@ package ooplad7;
 
 public class Student {
     //properties of Student class
+    public static int age;
+    public String group;
     private String id;
     private String name;
     private String pid;
