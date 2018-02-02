@@ -10,6 +10,12 @@ public class PersonApp {
         System.out.println(student.toString());
 
 
+        //create object as student
+        Employee Employee = new Employee("359211110064","chayanis","191/6 M.5 Bansong",
+                "lady", "Student","9000","M&M");
+        System.out.println(Employee.toString());
+
+
 
 }//main
 }//class
